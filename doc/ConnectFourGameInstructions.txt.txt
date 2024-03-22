@@ -1,0 +1,36 @@
+Intro
+
+In the game Connect Four, players select a color and then alternately drop colored tokens into a vertically hanging grid consisting of six rows and seven columns. The fragments land in the lowest area of the column, falling straight down. Being the first player to line up four of their own tokens in a horizontal, vertical, or diagonal fashion is the aim of the game. The game Connect Four can be solved. Making the proper moves allows the first player to win every time.
+
+Setup
+
+Follow game to setup
+1) Verify that your machine has Python installed.
+2) Make a local copy of the repository.
+3) Install any dependencies that are indicated in the `requirements.txt` file that are required.
+4) Open the script `connect_four_game.py` in the `src} directory.
+
+Features of the game 
+1) Multiplayer online feature.
+2) AI opposition in single-player mode.
+3) Modifiable game parameters via the menu of the game.
+4) A user interface that is simple to use and intuitive.
+
+Controls
+1) To drop your token in a certain column, pick it with the mouse.
+2) To drop the token into a column, press the corresponding number (1–7) on the keyboard.
+ 
+Rules
+The game follows the standard Connect Four rules where players must connect a line of four tokens vertically, horizontally, or diagonally.
+
+Winning Conditions
+When a player lines up four tokens of the same color in a continuous line, the game is over; alternatively, if the board fills up and no winning conditions are met, a draw occurs.
+
+Pause/Resume Feature
+By using the 'P' and 'R' keys, players can pause and resume the game at any moment.
+
+Move History
+The game provides a move history feature that allows players to view the sequence of moves made during the game.
+
+Contribute
+We welcome contributions from the community. Please refer to the project's GitHub repository for more information on how to contribute.
